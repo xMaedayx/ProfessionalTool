@@ -21,14 +21,10 @@ function askQuestions() {
                 type: "list",
                 choices: [
                     "MIT", "BSD3", "Apache", "JAM"
-                
                 ]
             },
-            {
-                name: "table of content",
-                message: "Would you like to add a basic table of contents?",
-                choices: 'installation, usage, credits and, license?'
-            },
+            
+            
             {
               name: "installation",
               message: "Please provide a step by step description of the project installation.",
@@ -44,7 +40,26 @@ function askQuestions() {
               name: 'credits',
               message: "List your collaborators, if any, with links to their GitHub profiles",
               choices: "input"  
+            },
+            {
+                name: 'Questions',
+                message: "F.A.Q. #1",
+                choices: 'input'
+    
+            },
+            {
+                name: 'Questions',
+                message: 'F.A.Q. #2',
+                choices: 'input'
+
+            },
+            {
+                name: 'Questions',
+                message: 'F.A.Q. #3',
+                choicecs: 'input'
             }
+            
+            
         ]
 
     )
