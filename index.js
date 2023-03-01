@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./generateMarkdown.js')
-
+// the object of promises. The questions that are asked for the user to generate ReadMe.
 function askQuestions() {
     inquirer.prompt(
         [
@@ -20,7 +20,7 @@ function askQuestions() {
                 message: "What type of license do you want?",
                 type: "list",
                 choices: [
-                    "MIT", "BSD3", "Apache", "JAM"
+                    "MIT", "BSD3", "artistic-perl-1-0-2", "JAM"
                 ]
             },
             
