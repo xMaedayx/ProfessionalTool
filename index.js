@@ -43,22 +43,16 @@ function askQuestions() {
             },
             {
                 name: 'Questions',
-                message: "F.A.Q. #1",
+                message: "Please input your github username.",
                 choices: 'input'
     
             },
             {
                 name: 'Questions',
-                message: 'F.A.Q. #2',
-                choices: 'input'
-
+                message: 'Please input your email address',
+                choices: "input"
             },
-            {
-                name: 'Questions',
-                message: 'F.A.Q. #3',
-                choicecs: 'input'
-            }
-            
+
             
         ]
 
