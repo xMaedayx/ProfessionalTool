@@ -42,7 +42,7 @@ function askQuestions() {
               choices: "input"  
             },
             {
-                name: 'Questions',
+                name: 'handle',
                 message: "Please input your github username.",
                 choices: 'input'
     
